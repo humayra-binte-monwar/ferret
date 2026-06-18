@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+pypdf
+langchain-text-splitters
+fastembed
+chromadb
+groq
+python-dotenv
+streamlit

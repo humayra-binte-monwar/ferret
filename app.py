@@ -19,14 +19,14 @@ st.markdown("""
     }
     
     .stApp {
-        background-color: #D68C29;
+        background-color: #ECE7D9;
         color: #252422;
     }
 
     #MainMenu, footer, header { visibility: hidden; }
 
     .hero {
-        background-color: #D8D3C9;
+        background-color: #FFFFFF;
         border: 3px solid #252422;
         border-radius: 4px;
         padding: 3rem 2rem;
@@ -59,8 +59,9 @@ st.markdown("""
     }
 
     .answer-card {
-        background-color: #D8D3C9;
+        background-color: #FFFFFF;
         border: 3px solid #252422;
+        border-left: 10px solid #D68C29;
         border-radius: 4px;
         padding: 1.75rem;
         margin: 1.5rem 0 2.5rem 0;
@@ -71,7 +72,7 @@ st.markdown("""
     }
 
     .source-card {
-        background-color: #D8D3C9;
+        background-color: #FFFFFF;
         border: 2px solid #252422;
         border-radius: 4px;
         padding: 1.35rem;
@@ -133,7 +134,7 @@ st.markdown("""
     }
 
     .stTextInput input {
-        background-color: #D8D3C9 !important;
+        background-color: #FFFFFF !important;
         border: 3px solid #252422 !important;
         color: #252422 !important;
         border-radius: 4px !important;
@@ -143,8 +144,7 @@ st.markdown("""
         transition: all 0.15s;
     }
     .stTextInput input:focus {
-        background-color: #E2DDD5 !important;
-        box-shadow: 5px 5px 0px #252422 !important;
+        box-shadow: 5px 5px 0px #D68C29 !important;
     }
 
     .stButton > button[kind="primary"] {
@@ -176,7 +176,7 @@ st.markdown("""
         font-size: 0.8rem;
     }
     .st-at, .st-b1, .st-b2, .st-b3, .st-b4 {
-        background-color: #D68C29 !important;
+        background-color: #6B6760 !important;
     }
 
     hr {
@@ -231,10 +231,8 @@ with st.sidebar:
 
 st.markdown("""
 <div class="hero">
-    <div class="diamond-divider">◆ &nbsp; ◆ &nbsp; ◆ &nbsp; ◆ &nbsp; ◆</div>
     <h1>Ferret</h1>
     <p>A grounded, structural approach to reading your documents.</p>
-    <div class="diamond-divider">◆ &nbsp; ◆ &nbsp; ◆ &nbsp; ◆ &nbsp; ◆</div>
 </div>
 """, unsafe_allow_html=True)
 
